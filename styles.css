@@ -97,6 +97,27 @@ padding-top: 25%;
  color: color: rgba(255, 255, 255, 0.7); 
 }
 
+.nav > li {
+background-color: antiquewhite;
+}
+
+.nav > li > a:hover{
+    background-color: rgba(107, 14, 150, 0.28);
+}
+
+.KB_Winery {
+    padding: 1%;
+    width: 300px;
+    height: 320px;
+}
+
+.Napa_Valley {
+    padding: 1%;
+    width: 300px;
+    height: 320px;
+}
+
+
 @media only screen and (max-width: 600){
 
 }
