@@ -60,11 +60,12 @@ position: absolute;
 }
 
 .FOF {
-
+align-items: center;
+padding-left: 25%;
 }
 .MeetandEat {
-width: 360px;
-height: 550px;
+align-items: center;
+padding-left: 25%;
 }
 .DOE {
 width: 350px;
@@ -116,6 +117,25 @@ background-color: antiquewhite;
     width: 300px;
     height: 320px;
 }
+
+column#caption {
+	position: relative;
+}
+.column#caption .text {
+		position: absolute;		
+    top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: 10;
+    opacity: 0;
+    transition: all 0.8s ease;			
+}
+.column#caption .text h1 {		
+		margin: 0;		
+		color: white;
+}
+.column#caption:hover .text {
+	opacity: 1;
 
 
 @media only screen and (max-width: 600){
